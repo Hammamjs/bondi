@@ -25,10 +25,10 @@
     <div class="collapse navbar-collapse" id="main">
         <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
         <li class="nav-item">
-            <a class="nav-link active p-lg-3" aria-current="page" href="#">Home</a>
+            <a class="nav-link active p-lg-3" aria-current="page" href="#" data-scroll = "home">Home</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link p-lg-3" href="#">Services</a>
+            <a class="nav-link p-lg-3" href="#" data-scroll="features">Features</a>
         </li>
         <li class="nav-item">
             <a class="nav-link p-lg-3" href="#">Portfolio</a>
@@ -37,7 +37,7 @@
             <a class="nav-link p-lg-3" href="#">About</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link p-lg-3" href="#">Contact</a>
+            <a class="nav-link p-lg-3" href="#" data-scroll="contact">Contact</a>
         </li>
         </ul>
         <div class="search ps-3 pe-3 d-none d-lg-block me-3">
@@ -51,7 +51,7 @@
     
 
     <!-- Start Landing -->
-    <div class="landing d-flex justify-content-center align-items-center" >
+    <div class="landing d-flex justify-content-center align-items-center scroll" id = 'home'>
         <div class="text-light text-center">
         <h1>Taste The Creativity</h1>
         <p class="fs-6 text-white-50">We make awesome Graphinc and Web design</p>
@@ -61,7 +61,7 @@
     <!-- End Landing -->
 
     <!-- Start Features -->
-    <div class="features">
+    <div class="features scroll" id = 'features'>
         <div class="container">
             <div class="main-title text-center pt-5 pb-5 position-relative">
                 <img src="imgs/title.png" alt="">
@@ -111,7 +111,7 @@
     <!-- End Features -->
 
     <!-- Start Our work -->
-    <div class="our-work">
+    <div class="our-work scroll" id = 'contact'>
         <div class="container">
             <div class="main-title text-center pt-5 pb-5 position-relative">
                 <img src="imgs/title.png" alt="">
@@ -439,5 +439,6 @@
 
     <script src="js/bootstrap.bundle.js"></script>
     <script src="js/all.min.js"></script>
+    <script src="js/index.js"></script>
 </body>
 </html>
